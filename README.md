@@ -2355,7 +2355,6 @@ Geneve is an extension of the original Virtual Extensible LAN (VXLAN) protocol a
 
 
 ------------------------------------------
-![scri](https://github.com/Azumi67/FRP-V2ray-Loadbalance/assets/119934376/cbfb72ac-eff1-46df-b5e5-a3930a4a6651)
 **اسکریپت های کارآمد :**
 - برای بهبود عملکرد سرور میتوانید از optimizer استفاده نمایید یا bbr ساده نصب کنید
 
@@ -2375,35 +2374,18 @@ wget "https://raw.githubusercontent.com/hawshemi/Linux-Optimizer/main/linux-opti
 ```
 
 -----------------------------------------------------
-![R (a2)](https://github.com/Azumi67/PrivateIP-Tunnel/assets/119934376/716fd45e-635c-4796-b8cf-856024e5b2b2)
 **اسکریپت من**
 ----------------
 
-- نصب یش نیاز ها
+- نصب پیش نیاز ها
 ```
 apt install python3 -y && sudo apt install python3-pip &&  pip install colorama && pip install netifaces && apt install curl -y
 pip3 install colorama
 sudo apt-get install python-pip -y  &&  apt-get install python3 -y && alias python=python3 && python -m pip install colorama && python -m pip install netifaces
 ```
-- نسخه پایین برای سرور های دارای رم کمتر میباشد
-```
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/kalilovers/6TO4-all/main/lightweight.sh)"
-```
-- نسخه پایین برای سرور های دارای رم کمتر و externally managed
-```
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/kalilovers/6TO4-all/main/managed4.sh)"
-```
+------------------------------------------------------------------------------------------
 
-------------------
-- برای ubuntu24 و حتی سایر سیستم عامل ها میتوانید از این دستور استفاده نمایید ( پیش نیاز ها نصب شده باشد)- این نسخه برای سرور های با رم بالا است
-```
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/kalilovers/6TO4-all/main/ubuntu24.sh)"
-```
-- برای ubuntu24 و سیستم عامل های دیگر با خطای externally managed - این نسخه برای سرور های با رم بالا است
-```
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/kalilovers/6TO4-all/main/managed3.sh)"
-```
-----------------
+
 - نسخه های پایین ممکن است برای همه قابل اجرا نباشد و برای سرور های با رم بالا است
 ```
 apt install python3 -y && sudo apt install python3-pip &&  pip install colorama && pip install netifaces && apt install curl -y && python3 <(curl -Ls https://raw.githubusercontent.com/kalilovers/6TO4-all/main/ipipv2.py --ipv4)
@@ -2429,6 +2411,34 @@ python3 <(curl -Ls https://raw.githubusercontent.com/kalilovers/6TO4-all/main/ip
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/kalilovers/6TO4-all/main/managed2.sh)"
 ```
 ---------------------------------------------
+<div align="right">
+  <details>
+    <summary><strong>نسخه اوبونتو 24 و نسخه سبک : این قسمت از پروژه به صورت کامل فورک نشده و استفاده نکنید</strong></summary>
+    
+- نسخه پایین برای سرور های دارای رم کمتر میباشد
+
+```
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/kalilovers/6TO4-all/main/lightweight.sh)"
+```
+
+- نسخه پایین برای سرور های دارای رم کمتر و externally managed
+```
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/kalilovers/6TO4-all/main/managed4.sh)"
+```
+
+
+- برای ubuntu24 و حتی سایر سیستم عامل ها میتوانید از این دستور استفاده نمایید ( پیش نیاز ها نصب شده باشد)- این نسخه برای سرور های با رم بالا است
+
+```
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/kalilovers/6TO4-all/main/ubuntu24.sh)"
+```
+- برای ubuntu24 و سیستم عامل های دیگر با خطای externally managed - این نسخه برای سرور های با رم بالا است
+
+```
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/kalilovers/6TO4-all/main/managed3.sh)"
+```
+  </details>
+</div>
 
 
 
