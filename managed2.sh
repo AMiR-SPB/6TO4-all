@@ -19,4 +19,4 @@ else
     echo "Package python3-colorama not found in the repositories."
 fi
 
-python3 <(curl -Ls https://github.com/kalilovers/6TO4-all/blob/main/ipipv2.py --ipv4)
+python3 <(curl -Ls https://raw.githubusercontent.com/kalilovers/6TO4-all/main/ipip.py --ipv4)
