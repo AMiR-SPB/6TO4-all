@@ -6,5 +6,5 @@ chmod +x /etc/logo2.sh
 if [ -f "ubuntu24.py" ]; then
     rm ubuntu24.py
 fi
-wget https://github.com/kalilovers/LightKnightBBR/releases/download/download/ubuntu24.py
+wget https://github.com/kalilovers/6TO4-all/releases/download/download/ubuntu24.py
 python3 ubuntu24.py
