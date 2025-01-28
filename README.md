@@ -1,6 +1,5 @@
-**فورک پروژه 6TO4-GRE-IPIP-SIT > نسخه اکتبر 2024** 
+**فورک پروژه 6TO4-GRE-IPIP-SIT > نسخه اکتبر 2024 تقریبا نسخه جدید** 
 - تغییرات لازم برای اجرای فایل ها از داخل همین فورک داده شده
-- البته فایل های releases برای اوبونتو 24 و نسخه سبک فورک نشده متاسفانه برای همین داخل Readme پنهانش کردم 
 - **به زودی صفحه گیت هاب دولوپر این پروژه یعنی Azumi67 فعال میشه و میتونید داخل گیت خود سازنده نسخه بروز و اصلی رو استفاده کنید :)**
 ---------------------------------------------------------------
 
@@ -2416,9 +2415,6 @@ python3 <(curl -Ls https://raw.githubusercontent.com/kalilovers/6TO4-all/main/ip
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/kalilovers/6TO4-all/main/managed2.sh)"
 ```
 ---------------------------------------------
-<div align="right">
-  <details>
-    <summary><strong>نسخه اوبونتو 24 و نسخه سبک : این قسمت از پروژه به صورت کامل فورک نشده و استفاده نکنید</strong></summary>
     
 - نسخه پایین برای سرور های دارای رم کمتر میباشد
 
@@ -2442,8 +2438,5 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/kalilovers/6TO4-all/main
 ```
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/kalilovers/6TO4-all/main/managed3.sh)"
 ```
-  </details>
-</div>
-
 
 
