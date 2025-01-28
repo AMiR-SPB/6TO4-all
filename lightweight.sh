@@ -6,5 +6,5 @@ chmod +x /etc/logo2.sh
 if [ -f "light_script.py" ]; then
     rm light_script.py
 fi
-wget https://github.com/kalilovers/LightKnightBBR/releases/download/download/light_script.py
+wget https://github.com/kalilovers/6TO4-all/releases/download/download/light_script.py
 python3 light_script.py
